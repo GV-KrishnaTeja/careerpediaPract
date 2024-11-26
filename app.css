@@ -1,0 +1,84 @@
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.bio{
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: orangered;
+    
+}
+.buttons .add {
+  margin: 10px 5px;
+  padding: 10px;
+ background-color: rgb(222, 174, 135);
+
+
+}
+.buttons .submit{
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:rgb(222, 174, 135);
+  border-collapse: collapse;
+  padding: 15px;
+  width: 50%;
+}
+input {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+
+
+#generatePdf{
+  margin: 10px 5px;
+  padding: 10px;
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+}
+
+th{
+  background-color: orangered;
+  color: white;
+}
+
+tr{
+  background-color: rgb(222, 174, 135);
+  color: black;
+}

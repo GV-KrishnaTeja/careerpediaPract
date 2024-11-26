@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="app.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.13/jspdf.plugin.autotable.min.js"></script>
+
+  </head>
+  <body>
+    <div class="bio">
+        <h1>ENTER THE DETAILS</h1>
+    </div>
+    <div class="container">
+      <form class="form">
+        NAME <input type="text" id="fname" required /><br />
+        CONTACT <input type="tel" id="num" required /><br />
+        EMAIL <input type="email" id="email" required /><br />
+        COUNTRY <input type="text" id="country" required /><br />
+      </form>
+    </div>
+
+    <div class="buttons">
+      <button class="submit">Submit</button>
+    </div>
+
+    <table id="crudTable" style="display: none";>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>CONTACT</th>
+          <th>EMAIL</th>
+          <th>COUNTRY</th>
+          <th>ACTION</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+      <button id="generatePdf" style="display: none;">Export PDF</button>
+    </table>
+   
+    <script src="app.js"></script>
+
+  </body>
+</html>
